@@ -111,6 +111,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Ludo_Board.pdf" />
+    <None Include="Resources\Ludo_Players.pdf" />
+    <None Include="Resources\X.png" />
+    <None Include="Resources\V.png" />
+    <None Include="Resources\Subli-art logo.png" />
+    <None Include="Resources\Slot.png" />
+    <None Include="Resources\SetupBannerImage.bmp" />
+    <None Include="Resources\Ludo_Board_R.png" />
+    <None Include="Resources\Ludo_Board_L.png" />
+    <None Include="Resources\Instructions.png" />
+    <None Include="Resources\CW.png" />
+    <None Include="Resources\Arrow.png" />
+    <None Include="Resources\Player.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

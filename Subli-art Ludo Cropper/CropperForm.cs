@@ -1,16 +1,11 @@
 ﻿#region Using
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Reflection;
 using System.Resources;
 using System.Globalization;
 #endregion
@@ -578,7 +573,7 @@ namespace Subli_art_Ludo_Cropper
         }
         #endregion
         
-        #region Functions
+        #region Methods
         private void SaveFile()
         {
             try

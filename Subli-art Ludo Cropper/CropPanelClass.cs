@@ -1,13 +1,7 @@
 ﻿#region Using
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.IO;
 using System.Windows.Forms;
 #endregion
 
@@ -178,7 +172,7 @@ namespace Subli_art_Ludo_Cropper
             m_cropPanel.Controls.Add(m_cropPb);
 
             // LOGO BITMAP
-            Image logoImage = Image.FromFile(Application.StartupPath + "//Data//Images//Subli-art logo.png");
+            Image logoImage = Image.FromFile(Application.StartupPath + "//Data//Images//Subli-art logo.png");            
             float logoWidth = m_cropPanel.Width * 0.3f;
             float logoHeight = logoWidth / (logoImage.Width / (float)logoImage.Height);
             m_logoSize = new Size((int)logoWidth, (int)logoHeight);
@@ -394,7 +388,7 @@ namespace Subli_art_Ludo_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         private void InCropRect(int currX, int currY, string state)
         {
             // If the mouse is in crop rectangle area
