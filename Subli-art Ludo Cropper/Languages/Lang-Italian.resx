@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All_slots_must_be_full_and_approved" xml:space="preserve">
+    <value>Tutte le posizioni devono essere approvate</value>
+    <comment>Alerts - Slots</comment>
+  </data>
+  <data name="Approve_Crop" xml:space="preserve">
+    <value>Conferma Taglio</value>
+    <comment>Options Menu</comment>
+  </data>
+  <data name="Arrow_Text_Create" xml:space="preserve">
+    <value>Se sei soddisfatto delle immagini cliccare sul pulsante sotto</value>
+    <comment>Slots Panel - Arrow</comment>
+  </data>
+  <data name="before_closing" xml:space="preserve">
+    <value>prima di chiudere?</value>
+    <comment>Alerts - Save Pt. 2</comment>
+  </data>
+  <data name="Clear_Library" xml:space="preserve">
+    <value>Rimuovi la Libreria</value>
+    <comment>Options Menu</comment>
+  </data>
+  <data name="Clear_Slot" xml:space="preserve">
+    <value>Rimuovi Posizione</value>
+    <comment>Options Menu</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Chiudi</value>
+    <comment>Other</comment>
+  </data>
+  <data name="Create_PDF" xml:space="preserve">
+    <value>Crea PDF</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Esci</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="Import_Images" xml:space="preserve">
+    <value>Importa Immagini</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuovo</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="Next_Slot" xml:space="preserve">
+    <value>Prossima Posizione</value>
+    <comment>Options Menu</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Apri</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opzioni</value>
+    <comment>Options Menu</comment>
+  </data>
+  <data name="Previous_Slot" xml:space="preserve">
+    <value>Anteprima Posizione</value>
+    <comment>Options Menu</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="Save_As" xml:space="preserve">
+    <value>Salva Come</value>
+    <comment>File Menu</comment>
+  </data>
+  <data name="Save_changes_to_document" xml:space="preserve">
+    <value>Salvare le modifiche al documento</value>
+    <comment>Alerts - Save Pt. 1</comment>
+  </data>
+  <data name="Slot" xml:space="preserve">
+    <value>Posizione</value>
+    <comment>Slots Panel - Slots</comment>
+  </data>
+  <data name="Some_images_could_not_be_found" xml:space="preserve">
+    <value>Alcune immagini non possono essere trovate</value>
+    <comment>Alerts - Images</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Senza Titolo</value>
+    <comment>Other</comment>
+  </data>
+  <data name="User_Guide" xml:space="preserve">
+    <value>
+Guida:
+
+1. Importa le immagini dalla tua libreria usando il tasto “Importa Immagini...”.
+2. Ritaglia l’immagine usando lo strumento di ritaglio che apparirà al centro dell’immagine.
+3. Approva il ritaglio cliccando sul tasto V e inizia il ritaglio di una nuova immagine.
+4. Una volta terminato il lavoro per tutte le immagini, clicca il tasto “Crea PDF” per salvare il documento che contiene il foglio con tutte le mmagini da stampare.</value>
+    <comment>User's Guide</comment>
+  </data>
+  <data name="Creating_PDF" xml:space="preserve">
+    <value>Creando PDF...</value>
+    <comment>Progress Bar Form</comment>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finito</value>
+    <comment>Progress Bar Form</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancella</value>
+    <comment>Other</comment>
+  </data>
+  <data name="Open_PDF_Folder" xml:space="preserve">
+    <value>Aprire la cartella PDF</value>
+    <comment>Progress Bar Form</comment>
+  </data>
+  <data name="Open_PDF" xml:space="preserve">
+    <value>PDF Aperto</value>
+    <comment>Progress Bar Form</comment>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value />
+    <comment>Slots Panel - Buttons</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Prossima</value>
+    <comment>Slots Panel - Buttons</comment>
+  </data>
+  <data name="Board" xml:space="preserve">
+    <value />
+    <comment>Crop Panel</comment>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value />
+    <comment>Crop Panel</comment>
+  </data>
+  <data name="Arrow_Text_Next" xml:space="preserve">
+    <value />
+    <comment>Slots Panel - Arrow</comment>
+  </data>
+  <data name="Arrow_Text_Exit" xml:space="preserve">
+    <value />
+    <comment>Slots Panel - Arrow</comment>
+  </data>
+</root>

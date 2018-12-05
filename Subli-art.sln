@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subli-art Domino Cropper", "Subli-art Domino Cropper\Subli-art Domino Cropper.csproj", "{9CC548BD-A9E7-45FB-B95E-A8342FAC2196}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Subli-art Domino Cropper Setup", "Subli-art Domino Cropper Setup\Subli-art Domino Cropper Setup.vdproj", "{BEFA0600-D242-40B5-9D43-B42CD5F74C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subli-art Ludo Cropper", "Subli-art Ludo Cropper\Subli-art Ludo Cropper.csproj", "{6A755BE1-0733-4B88-8B2C-986E93E877A7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Subli-art Ludo Cropper Setup", "Subli-art Ludo Cropper Setup\Subli-art Ludo Cropper Setup.vdproj", "{97E5B5CD-A49D-46B8-B78A-120494537F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC548BD-A9E7-45FB-B95E-A8342FAC2196}.Debug|x86.ActiveCfg = Debug|x86
+		{9CC548BD-A9E7-45FB-B95E-A8342FAC2196}.Debug|x86.Build.0 = Debug|x86
+		{9CC548BD-A9E7-45FB-B95E-A8342FAC2196}.Release|x86.ActiveCfg = Release|x86
+		{9CC548BD-A9E7-45FB-B95E-A8342FAC2196}.Release|x86.Build.0 = Release|x86
+		{BEFA0600-D242-40B5-9D43-B42CD5F74C69}.Debug|x86.ActiveCfg = Debug
+		{BEFA0600-D242-40B5-9D43-B42CD5F74C69}.Release|x86.ActiveCfg = Release
+		{6A755BE1-0733-4B88-8B2C-986E93E877A7}.Debug|x86.ActiveCfg = Debug|x86
+		{6A755BE1-0733-4B88-8B2C-986E93E877A7}.Debug|x86.Build.0 = Debug|x86
+		{6A755BE1-0733-4B88-8B2C-986E93E877A7}.Release|x86.ActiveCfg = Release|x86
+		{6A755BE1-0733-4B88-8B2C-986E93E877A7}.Release|x86.Build.0 = Release|x86
+		{97E5B5CD-A49D-46B8-B78A-120494537F74}.Debug|x86.ActiveCfg = Debug
+		{97E5B5CD-A49D-46B8-B78A-120494537F74}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
