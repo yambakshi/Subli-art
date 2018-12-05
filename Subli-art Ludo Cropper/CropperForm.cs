@@ -43,7 +43,7 @@ namespace Subli_art_Ludo_Cropper
             // Set the cropper form
             StartPosition = FormStartPosition.CenterScreen;
             WindowState = FormWindowState.Maximized;
-            Icon = new Icon(Application.StartupPath + "//Data//Images//Icon.ico");
+            Icon = Properties.Resources.Icon;
             BackColor = Color.Black;
             Text = Name + " - " + m_langDictionary["Untitled"];
             DoubleBuffered = true;
@@ -191,8 +191,8 @@ namespace Subli_art_Ludo_Cropper
             m_cropPanels[1].Name = m_langDictionary["Players"];
 
             // Set the panels bitmap
-            m_cropPanels[1].Bitmap = new Bitmap(Application.StartupPath + "//Data//Images//Player.png");
-            m_slotsPanels[1].Bitmap = new Bitmap(Application.StartupPath + "//Data//Images//Player.png");
+            m_cropPanels[1].Bitmap = Properties.Resources.Player;
+            m_slotsPanels[1].Bitmap = Properties.Resources.Player;
 
             // Position the panel according 
             // to the index passed as argument
