@@ -263,7 +263,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         public void CropToSlot(Bitmap bmp, RectangleF sourceRect)
         {
             m_slots[m_slotInd].bmp = bmp;

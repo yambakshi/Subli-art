@@ -191,7 +191,7 @@ namespace Subli_art_Domino_Cropper
                 for (int i = 0; i < m_cropperForm.m_slotsPanel.SlotCount; i++)
                 {
                     bmpCrop = bitmaps[i].Clone(srcRects[i], bitmaps[i].PixelFormat);
-                    bmpCrop.Save(Application.StartupPath + "//tmp//PDF//Domino_PDF//Slot" + (i + 1) + ".jpg");
+                    bmpCrop.Save(Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg");
 
                     // Calculate the progress bar value
                     progressValue = (int)(((i + 1) / 7.0f) * 33);
@@ -257,7 +257,7 @@ namespace Subli_art_Domino_Cropper
                         return;
                     }
 
-                    m_images[i] = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//PDF//Domino_PDF//Slot" + (i + 1) + ".jpg");
+                    m_images[i] = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg");
 
                     float prec = imgWidth / m_images[i].Width;
                     m_images[i].ScalePercent(prec * 100);
@@ -352,7 +352,7 @@ namespace Subli_art_Domino_Cropper
             {
                 for (int i = 0; i < m_cropperForm.m_slotsPanel.SlotCount; i++)
                 {
-                    string filePath = Application.StartupPath + "//tmp//PDF//Domino_PDF//Slot" + (i + 1) + ".jpg";
+                    string filePath = Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg";
                     if (File.Exists(filePath))
                         File.Delete(filePath);
 
@@ -452,7 +452,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         public void StartCreatingPDF(string filename)
         {
             // Save the filename
@@ -485,7 +485,7 @@ namespace Subli_art_Domino_Cropper
                 // Delete the bitmaps saved for the PDF
                 for (int i = 0; i < 7; i++)
                 {
-                    string filePath = Application.StartupPath + "//tmp//PDF//Domino_PDF//Slot" + (i + 1) + ".jpg";
+                    string filePath = Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg";
                     if (File.Exists(filePath))
                         File.Delete(filePath);
                 }

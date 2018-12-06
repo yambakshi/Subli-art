@@ -111,6 +111,26 @@ namespace Subli_art_Ludo_Cropper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ludo_Board_L {
+            get {
+                object obj = ResourceManager.GetObject("Ludo_Board_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ludo_Board_R {
+            get {
+                object obj = ResourceManager.GetObject("Ludo_Board_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] Ludo_Players {
@@ -126,16 +146,6 @@ namespace Subli_art_Ludo_Cropper.Properties {
         public static System.Drawing.Bitmap Player {
             get {
                 object obj = ResourceManager.GetObject("Player", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap SetupBannerImage {
-            get {
-                object obj = ResourceManager.GetObject("SetupBannerImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -465,7 +465,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         public void ImportFromFile(string[] paths)
         {
             List<string> existingImages = new List<string>(paths);

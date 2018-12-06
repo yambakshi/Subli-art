@@ -2,13 +2,13 @@
 using System;
 using System.ComponentModel;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Windows.Forms;
 using System.Reflection;
 
 using iTextSharp.text;
 using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.parser;
 #endregion
 
 namespace Subli_art_Ludo_Cropper
@@ -195,7 +195,7 @@ namespace Subli_art_Ludo_Cropper
                     }
 
                     bmpCrop = bitmaps[i].Clone(srcRects[i], bitmaps[i].PixelFormat);
-                    bmpCrop.Save(Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg");
+                    bmpCrop.Save(Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg");
 
                     // Calculate the progress bar value 0% - 33%
                     progressValue = (int)(((i + 1) / (float)bitmaps.Length) * 33);
@@ -214,7 +214,7 @@ namespace Subli_art_Ludo_Cropper
                         return;
                     }
 
-                    m_images[i] = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg");
+                    m_images[i] = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg");
 
                     prec = BOARD_IMAGE_SIZE / m_images[i].Width;
                     m_images[i].ScalePercent(prec * 100);
@@ -266,7 +266,7 @@ namespace Subli_art_Ludo_Cropper
                         return;
                     }
 
-                    string filePath = Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg";
+                    string filePath = Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg";
                     if (File.Exists(filePath))
                         File.Delete(filePath);
 
@@ -406,7 +406,7 @@ namespace Subli_art_Ludo_Cropper
                 // Delete the bitmaps saved for the PDF
                 for (int i = 0; i < 7; i++)
                 {
-                    string filePath = Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg";
+                    string filePath = Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg";
                     if (File.Exists(filePath))
                         File.Delete(filePath);
                 }
@@ -435,13 +435,13 @@ namespace Subli_art_Ludo_Cropper
                 templatePDF = new PdfReader(Properties.Resources.Ludo_Board);
 
                 // Create the RIGHT board image
-                m_boardR = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//Ludo_Board_R.png");
+                m_boardR = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_R, ImageFormat.Png);
                 m_boardR.SetAbsolutePosition(0, 0);
                 prec = templatePDF.GetPageSize(1).Width / m_boardR.Width;
                 m_boardR.ScalePercent(prec * 100);
 
                 // Create the LEFT board image
-                m_boardL = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//Ludo_Board_L.png");                
+                m_boardL = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_L, ImageFormat.Png);
                 m_boardL.SetAbsolutePosition(0, 0);
                 prec = templatePDF.GetPageSize(1).Width / m_boardL.Width;
                 m_boardL.ScalePercent(prec * 100);

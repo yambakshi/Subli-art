@@ -357,7 +357,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         private void InCropRect(int currX, int currY, string state)
         {
             // If the mouse is in crop rectangle area

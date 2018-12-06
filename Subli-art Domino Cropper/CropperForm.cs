@@ -354,7 +354,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
         
-        #region Functions
+        #region Methods
         private void SaveFile()
         {
             try
