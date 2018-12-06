@@ -37,7 +37,8 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="itextsharp">
@@ -76,6 +77,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ImagesLibraryClass.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SlotsPanelClass.cs" />
     <EmbeddedResource Include="CropperForm.resx">
       <DependentUpon>CropperForm.cs</DependentUpon>
@@ -89,16 +95,15 @@
       <LastGenOutput>Lang-Italian.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="app.manifest" />
+    <None Include="Photoshop\ControlButtons.psd" />
+    <None Include="Photoshop\Icon.psd" />
+    <None Include="Photoshop\Ludo_Players.psd" />
+    <None Include="Photoshop\Player.psd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,20 +115,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Icon.ico" />
-    <None Include="Resources\Ludo_Board.pdf" />
-    <None Include="Resources\Ludo_Players.pdf" />
+    <None Include="Resources\Icon.ico" />
     <None Include="Resources\X.png" />
     <None Include="Resources\V.png" />
     <None Include="Resources\Subli-art logo.png" />
     <None Include="Resources\Slot.png" />
-    <None Include="Resources\SetupBannerImage.bmp" />
-    <None Include="Resources\Ludo_Board_R.png" />
-    <None Include="Resources\Ludo_Board_L.png" />
+    <None Include="Resources\Player.png" />
     <None Include="Resources\Instructions.png" />
     <None Include="Resources\CW.png" />
     <None Include="Resources\Arrow.png" />
-    <None Include="Resources\Player.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
