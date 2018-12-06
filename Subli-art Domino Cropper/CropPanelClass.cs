@@ -63,7 +63,7 @@ namespace Subli_art_Domino_Cropper
             
             // Create the arrow bitmap
             m_arrowBmp = new Bitmap(
-                Image.FromFile(Application.StartupPath + "//Data//Images//Arrow.png"),
+                Properties.Resources.Arrow,
                 m_cropperForm.m_slotsPanel.SlotWidth, m_cropperForm.m_slotsPanel.SlotWidth);
 
             // Initialize the arrow position
@@ -87,7 +87,7 @@ namespace Subli_art_Domino_Cropper
             m_deleteBut = new Button();
             m_deleteBut.BackgroundImageLayout = ImageLayout.Stretch;
             m_deleteBut.BackColor = Color.Black;
-            m_deleteBut.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//X.png");
+            m_deleteBut.BackgroundImage = Properties.Resources.X;
             m_deleteBut.Size = new Size((int)(m_cropPanel.Width * 0.03f), (int)(m_cropPanel.Width * 0.03f));
             m_deleteBut.Cursor = Cursors.Hand;
             m_deleteBut.Visible = false;
@@ -99,7 +99,7 @@ namespace Subli_art_Domino_Cropper
             m_CCWButt.Name = "CCW";
             m_CCWButt.BackgroundImageLayout = ImageLayout.Stretch;
             m_CCWButt.BackColor = Color.Black;
-            m_CCWButt.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//CW.png");
+            m_CCWButt.BackgroundImage = Properties.Resources.CW;
             m_CCWButt.BackgroundImage.RotateFlip(RotateFlipType.RotateNoneFlipX);
             m_CCWButt.Size = new Size((int)(m_cropPanel.Width * 0.03f), (int)(m_cropPanel.Width * 0.03f));
             m_CCWButt.Location = new Point(m_deleteBut.Width, 0);
@@ -113,7 +113,7 @@ namespace Subli_art_Domino_Cropper
             m_CWButt.Name = "CW";
             m_CWButt.BackgroundImageLayout = ImageLayout.Stretch;
             m_CWButt.BackColor = Color.Black;
-            m_CWButt.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//CW.png");
+            m_CWButt.BackgroundImage = Properties.Resources.CW;
             m_CWButt.Size = new Size((int)(m_cropPanel.Width * 0.03f), (int)(m_cropPanel.Width * 0.03f));
             m_CWButt.Location = new Point(2 * m_deleteBut.Width, 0);
             m_CWButt.Cursor = Cursors.Hand;
@@ -135,7 +135,7 @@ namespace Subli_art_Domino_Cropper
             m_approveCrop = new Button();
             m_approveCrop.BackgroundImageLayout = ImageLayout.Stretch;
             m_approveCrop.BackColor = Color.Black;
-            m_approveCrop.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//V.png");
+            m_approveCrop.BackgroundImage = Properties.Resources.V;
             m_approveCrop.Size = new Size((int)(m_cropPanel.Width * 0.03f), (int)(m_cropPanel.Width * 0.03f));
             m_approveCrop.Location = new Point(4 * m_deleteBut.Width, 0);
             m_approveCrop.Cursor = Cursors.Hand;
@@ -163,7 +163,7 @@ namespace Subli_art_Domino_Cropper
             m_cropPanel.Controls.Add(m_cropPb);
 
             // Initialize the logo bitmap
-            Image logoImage = Image.FromFile(Application.StartupPath + "//Data//Images//Subli-art logo.png");
+            Image logoImage = Properties.Resources.Subli_art_logo;
             float logoWidth = m_cropPanel.Width * 0.3f;
             float logoHeight = logoWidth / (logoImage.Width / (float)logoImage.Height);
             m_logoSize = new Size((int)logoWidth, (int)logoHeight);

@@ -89,15 +89,19 @@
       <LastGenOutput>Lang-Italian.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
+    <None Include="Photoshop\ControlButtons.psd" />
+    <None Include="Photoshop\Domino_Pattern.psd" />
+    <None Include="Photoshop\Icon.psd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,6 +114,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Domino_Pattern.pdf" />
+    <None Include="Resources\Icon.ico" />
+    <None Include="Resources\X.png" />
+    <None Include="Resources\V.png" />
+    <None Include="Resources\Subli-art logo.png" />
+    <None Include="Resources\Slot.png" />
+    <None Include="Resources\Instructions.png" />
+    <None Include="Resources\CW.png" />
+    <None Include="Resources\Arrow.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

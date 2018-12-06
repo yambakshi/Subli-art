@@ -195,7 +195,7 @@ namespace Subli_art_Ludo_Cropper
                     }
 
                     bmpCrop = bitmaps[i].Clone(srcRects[i], bitmaps[i].PixelFormat);
-                    bmpCrop.Save(Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg");
+                    bmpCrop.Save(Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg");
 
                     // Calculate the progress bar value 0% - 33%
                     progressValue = (int)(((i + 1) / (float)bitmaps.Length) * 33);
@@ -214,7 +214,7 @@ namespace Subli_art_Ludo_Cropper
                         return;
                     }
 
-                    m_images[i] = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg");
+                    m_images[i] = iTextSharp.text.Image.GetInstance(Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg");
 
                     prec = BOARD_IMAGE_SIZE / m_images[i].Width;
                     m_images[i].ScalePercent(prec * 100);
@@ -266,7 +266,7 @@ namespace Subli_art_Ludo_Cropper
                         return;
                     }
 
-                    string filePath = Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg";
+                    string filePath = Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg";
                     if (File.Exists(filePath))
                         File.Delete(filePath);
 
@@ -406,7 +406,7 @@ namespace Subli_art_Ludo_Cropper
                 // Delete the bitmaps saved for the PDF
                 for (int i = 0; i < 7; i++)
                 {
-                    string filePath = Application.StartupPath + "//tmp//Slot" + (i + 1) + ".jpg";
+                    string filePath = Application.StartupPath + "//tmp//slot" + (i + 1) + ".jpg";
                     if (File.Exists(filePath))
                         File.Delete(filePath);
                 }

@@ -44,7 +44,7 @@ namespace Subli_art_Domino_Cropper
             // Set the cropper form
             StartPosition = FormStartPosition.CenterScreen;
             WindowState = FormWindowState.Maximized;
-            Icon = new Icon(Application.StartupPath + "//Data//Images//Icon.ico");
+            Icon = Properties.Resources.Icon;
             BackColor = Color.Black;
             Text = Name + " - " + m_langDictionary["Untitled"];
             DoubleBuffered = true;
