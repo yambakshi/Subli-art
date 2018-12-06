@@ -1,13 +1,7 @@
 ﻿#region Using
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.IO;
 using System.Windows.Forms;
 #endregion
 
@@ -363,7 +357,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         private void InCropRect(int currX, int currY, string state)
         {
             // If the mouse is in crop rectangle area

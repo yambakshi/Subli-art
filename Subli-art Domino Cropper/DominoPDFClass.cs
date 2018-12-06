@@ -1,18 +1,12 @@
 ﻿#region Using
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using System.Reflection;
 
-using iTextSharp.text;
 using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.parser;
 #endregion
 
 namespace Subli_art_Domino_Cropper
@@ -458,7 +452,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         public void StartCreatingPDF(string filename)
         {
             // Save the filename

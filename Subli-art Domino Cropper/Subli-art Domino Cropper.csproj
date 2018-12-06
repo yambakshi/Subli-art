@@ -37,7 +37,8 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="itextsharp">
@@ -113,7 +114,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Icon.ico" />
     <None Include="Resources\Domino_Pattern.pdf" />
     <None Include="Resources\Icon.ico" />
     <None Include="Resources\X.png" />
