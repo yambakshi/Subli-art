@@ -17,7 +17,7 @@ namespace Subli_art_Ludo_Cropper
     {
         #region Members
         const float
-            BOARD_IMAGE_SIZE = 158.9f, PLAYER_IMAGE_WIDTH = 89.4f,
+            BOARD_IMAGE_SIZE = 139.7f, PLAYER_IMAGE_WIDTH = 89.4f,
             HORIZ_GAP = 10f, VERT_GAP = 11.5f;
         string m_filename;
         iTextSharp.text.Image[] m_images;
@@ -467,7 +467,7 @@ namespace Subli_art_Ludo_Cropper
                 m_images[0].Rotate();
 
                 // Add image
-                m_images[0].SetAbsolutePosition(191f, 531.6f);
+                m_images[0].SetAbsolutePosition(208.6f, 572.9f);
                 contentByte.AddImage(m_images[0]);
 
                 // YELLOW CORNER
@@ -480,7 +480,7 @@ namespace Subli_art_Ludo_Cropper
                 m_images[1].Rotate();
 
                 // Add image
-                m_images[1].SetAbsolutePosition(191f, 32.2f);
+                m_images[1].SetAbsolutePosition(208.6f, 68.5f);
                 contentByte.AddImage(m_images[1]);
 
                 // PAGE 2
@@ -500,7 +500,7 @@ namespace Subli_art_Ludo_Cropper
                 m_images[2].Rotate();
 
                 // Add image
-                m_images[2].SetAbsolutePosition(191f, 532.8f);
+                m_images[2].SetAbsolutePosition(223.0f, 572.9f);
                 contentByte.AddImage(m_images[2]);
 
                 // BLUE CORNER
@@ -513,7 +513,7 @@ namespace Subli_art_Ludo_Cropper
                 m_images[3].Rotate();
 
                 // Add image
-                m_images[3].SetAbsolutePosition(191f, 32.2f);
+                m_images[3].SetAbsolutePosition(223.0f, 68.5f);
                 contentByte.AddImage(m_images[3]);
 
                 // Close the document
