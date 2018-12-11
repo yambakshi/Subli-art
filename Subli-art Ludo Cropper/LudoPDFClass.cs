@@ -16,9 +16,7 @@ namespace Subli_art_Ludo_Cropper
     class LudoPDFClass
     {
         #region Members
-        const float
-            BOARD_IMAGE_SIZE = 139.7f, PLAYER_IMAGE_WIDTH = 89.4f,
-            HORIZ_GAP = 10f, VERT_GAP = 11.5f;
+        const float BOARD_IMAGE_SIZE = 139.7f, PLAYER_IMAGE_WIDTH = 99.3f;
         string m_filename;
         iTextSharp.text.Image[] m_images;
         CropperForm m_cropperForm;
@@ -424,7 +422,7 @@ namespace Subli_art_Ludo_Cropper
         private bool CreateBoardPDF(string outputPDFPath)
         {
             float prec;
-            iTextSharp.text.Image m_boardR, m_boardL;
+            iTextSharp.text.Image boardR, boardL;
             Document outputDocument = null;
             PdfWriter pdfWriter = null;
             PdfReader templatePDF = null;
@@ -435,16 +433,16 @@ namespace Subli_art_Ludo_Cropper
                 templatePDF = new PdfReader(Properties.Resources.Ludo_Board);
 
                 // Create the RIGHT board image
-                m_boardR = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_R, ImageFormat.Png);
-                m_boardR.SetAbsolutePosition(0, 0);
-                prec = templatePDF.GetPageSize(1).Width / m_boardR.Width;
-                m_boardR.ScalePercent(prec * 100);
+                boardR = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_R, ImageFormat.Png);
+                boardR.SetAbsolutePosition(0, 0);
+                prec = templatePDF.GetPageSize(1).Width / boardR.Width;
+                boardR.ScalePercent(prec * 100);
 
                 // Create the LEFT board image
-                m_boardL = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_L, ImageFormat.Png);
-                m_boardL.SetAbsolutePosition(0, 0);
-                prec = templatePDF.GetPageSize(1).Width / m_boardL.Width;
-                m_boardL.ScalePercent(prec * 100);
+                boardL = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_L, ImageFormat.Png);
+                boardL.SetAbsolutePosition(0, 0);
+                prec = templatePDF.GetPageSize(1).Width / boardL.Width;
+                boardL.ScalePercent(prec * 100);
 
                 outputDocument = new iTextSharp.text.Document(templatePDF.GetPageSize(1));
                 outputDocument.SetMargins(0f, 0f, 0f, 0f);
@@ -459,7 +457,7 @@ namespace Subli_art_Ludo_Cropper
                 contentByte = pdfWriter.DirectContent;
 
                 // Add the right board image
-                contentByte.AddImage(m_boardR);
+                contentByte.AddImage(boardR);
 
                 // GREEN CORNER
                 // Rotate image
@@ -488,7 +486,7 @@ namespace Subli_art_Ludo_Cropper
                 outputDocument.NewPage();
 
                 // Add the right board image
-                contentByte.AddImage(m_boardL);
+                contentByte.AddImage(boardL);
 
                 // RED CORNER
                 // Scale image
@@ -540,12 +538,18 @@ namespace Subli_art_Ludo_Cropper
             float prec, radius;
             Document outputDocument = null;
             PdfWriter pdfWriter = null;
+            iTextSharp.text.Image players;
             PdfReader templatePDF = null;
             PdfContentByte contentByte = null;
 
             try
             {
                 templatePDF = new PdfReader(Properties.Resources.Ludo_Players);
+
+                players = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Players_PNG, ImageFormat.Png);
+                players.SetAbsolutePosition(0, 0);
+                prec = templatePDF.GetPageSize(1).Width / players.Width;
+                players.ScalePercent(prec * 100);
 
                 outputDocument = new iTextSharp.text.Document(templatePDF.GetPageSize(1));
                 outputDocument.SetMargins(0f, 0f, 0f, 0f);
@@ -558,6 +562,9 @@ namespace Subli_art_Ludo_Cropper
 
                 // Draw the corner dots
                 contentByte = pdfWriter.DirectContent;
+
+                // Add the right board image
+                //contentByte.AddImage(players);
 
                 for (int i = 0; i < 2; i++)
                 {
@@ -572,8 +579,8 @@ namespace Subli_art_Ludo_Cropper
 
                         // Add image
                         m_images[bmpIndex].SetAbsolutePosition(
-                            169.2f + (bmpIndex * (m_images[bmpIndex].ScaledWidth + HORIZ_GAP)),
-                            678f - ((j / m_images.Length) * (m_images[bmpIndex].ScaledHeight + VERT_GAP)));
+                            150.8f + (bmpIndex * (m_images[bmpIndex].ScaledWidth)),
+                            593.8f - ((j / m_images.Length) * (m_images[bmpIndex].ScaledHeight)));
                         contentByte.AddImage(m_images[bmpIndex]);
 
                     }
@@ -581,20 +588,20 @@ namespace Subli_art_Ludo_Cropper
                     // Set the dots radius
                     radius = 5.5f / 2.0f;
 
-                    // BOTTOM LEFT
-                    contentByte.Circle(167.8f + radius, 194.2f + radius, radius);
-                    contentByte.Fill();
-
                     // TOP LEFT
-                    contentByte.Circle(171.8f + radius, 812.4f + radius, radius);
+                    contentByte.Circle(197.8f + radius, 749.5f + radius, radius);
                     contentByte.Fill();
 
                     // TOP RIGHT
-                    contentByte.Circle(549.4f + radius, 819.1f + radius, radius);
+                    contentByte.Circle(495.5f + radius, 749.5f + radius, radius);
+                    contentByte.Fill();
+
+                    // BOTTOM LEFT
+                    contentByte.Circle(150.6f + radius, 121.2f + radius, radius);
                     contentByte.Fill();
 
                     // BOTTOM RIGHT
-                    contentByte.Circle(510.7f + radius, 196.8f + radius, radius);
+                    contentByte.Circle(542.5f + radius, 121.2f + radius, radius);
                     contentByte.Fill();
 
                     if (i + 1 < 2)

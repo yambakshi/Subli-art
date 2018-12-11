@@ -118,6 +118,7 @@
     <None Include="Resources\Icon.ico" />
     <None Include="Resources\Ludo_Board.pdf" />
     <None Include="Resources\Ludo_Players.pdf" />
+    <None Include="Resources\Ludo_Players_OLD.pdf" />
     <None Include="Resources\X.png" />
     <None Include="Resources\V.png" />
     <None Include="Resources\Subli-art logo.png" />
@@ -132,6 +133,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ludo_Board_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ludo_Players_PNG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

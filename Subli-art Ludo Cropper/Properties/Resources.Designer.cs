@@ -141,6 +141,26 @@ namespace Subli_art_Ludo_Cropper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        public static byte[] Ludo_Players_OLD {
+            get {
+                object obj = ResourceManager.GetObject("Ludo_Players_OLD", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ludo_Players_PNG {
+            get {
+                object obj = ResourceManager.GetObject("Ludo_Players_PNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap Player {
