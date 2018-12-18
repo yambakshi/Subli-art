@@ -430,7 +430,7 @@ namespace Subli_art_Ludo_Cropper
 
             try
             {
-                templatePDF = new PdfReader(Properties.Resources.Ludo_Board);
+                templatePDF = new PdfReader(Properties.Resources.Ludo_Board_Template);
 
                 // Create the RIGHT board image
                 boardR = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Board_R, ImageFormat.Png);
@@ -544,9 +544,9 @@ namespace Subli_art_Ludo_Cropper
 
             try
             {
-                templatePDF = new PdfReader(Properties.Resources.Ludo_Players);
+                templatePDF = new PdfReader(Properties.Resources.Ludo_Players_Template);
 
-                players = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Players_PNG, ImageFormat.Png);
+                players = iTextSharp.text.Image.GetInstance(Properties.Resources.Ludo_Players, ImageFormat.Png);
                 players.SetAbsolutePosition(0, 0);
                 prec = templatePDF.GetPageSize(1).Width / players.Width;
                 players.ScalePercent(prec * 100);

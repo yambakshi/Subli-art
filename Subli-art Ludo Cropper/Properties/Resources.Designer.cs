@@ -101,16 +101,6 @@ namespace Subli_art_Ludo_Cropper.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] Ludo_Board {
-            get {
-                object obj = ResourceManager.GetObject("Ludo_Board", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap Ludo_Board_L {
@@ -133,19 +123,9 @@ namespace Subli_art_Ludo_Cropper.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Ludo_Players {
+        public static byte[] Ludo_Board_Template {
             get {
-                object obj = ResourceManager.GetObject("Ludo_Players", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] Ludo_Players_OLD {
-            get {
-                object obj = ResourceManager.GetObject("Ludo_Players_OLD", resourceCulture);
+                object obj = ResourceManager.GetObject("Ludo_Board_Template", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -153,10 +133,20 @@ namespace Subli_art_Ludo_Cropper.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Ludo_Players_PNG {
+        public static System.Drawing.Bitmap Ludo_Players {
             get {
-                object obj = ResourceManager.GetObject("Ludo_Players_PNG", resourceCulture);
+                object obj = ResourceManager.GetObject("Ludo_Players", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        public static byte[] Ludo_Players_Template {
+            get {
+                object obj = ResourceManager.GetObject("Ludo_Players_Template", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
