@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Subli-art Ludo Cropper Setup"
+"ProjectName" = "8:Subli-art Domino Cropper Setup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -15,38 +15,38 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_26A0A3AD5D4346B8ACE7A8752B60D907"
+        "MsmKey" = "8:_A133BD1C62B09B9B70981548F75E7BD2"
+        "OwnerKey" = "8:_B066CADD4C4F49B2BDDC1780B3E55B4D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B066CADD4C4F49B2BDDC1780B3E55B4D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+        "MsmKey" = "8:_C9C70C774A2F4D22927C30AD74306572"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9D0C5030609D443FAD7F65D8472947E7"
+        "MsmKey" = "8:_F5383A9DCD1346BFBB66BAED96676FED"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E952EFC2D84FB1202381B33D99124E9E"
-        "OwnerKey" = "8:_26A0A3AD5D4346B8ACE7A8752B60D907"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E952EFC2D84FB1202381B33D99124E9E"
+        "OwnerKey" = "8:_A133BD1C62B09B9B70981548F75E7BD2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_26A0A3AD5D4346B8ACE7A8752B60D907"
+        "OwnerKey" = "8:_B066CADD4C4F49B2BDDC1780B3E55B4D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -57,7 +57,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\Subli-art Ludo Cropper Setup.msi"
+        "OutputFilename" = "8:Debug\\Subli-art Domino Cropper Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -67,29 +67,13 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
-                    }
-                }
-            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\Subli-art Ludo Cropper Setup.msi"
+        "OutputFilename" = "8:Release\\Subli-art Domino Cropper Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -99,22 +83,6 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
-                    }
-                }
-            }
         }
     }
     "Deployable"
@@ -132,7 +100,7 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_0BC77AC86BB34213967EFAFCDA574F7C"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_8400296523B64B12B8DBB48AD3113A77"
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
@@ -144,54 +112,14 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C3A63B89397429597C4CB8AD62FBF1E"
-            {
-            "SourcePath" = "8:C:\\Users\\Yam\\Downloads\\Subli-art\\SetupBannerImage.bmp"
-            "TargetName" = "8:SetupBannerImage.bmp"
-            "Tag" = "8:"
-            "Folder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9D0C5030609D443FAD7F65D8472947E7"
-            {
-            "SourcePath" = "8:..\\Subli-art Ludo Cropper\\Resources\\Icon.ico"
-            "TargetName" = "8:Subli-art Ludo Cropper.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E952EFC2D84FB1202381B33D99124E9E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A133BD1C62B09B9B70981548F75E7BD2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:itextsharp, Version=5.5.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E952EFC2D84FB1202381B33D99124E9E"
+                    "_A133BD1C62B09B9B70981548F75E7BD2"
                     {
                     "Name" = "8:itextsharp.dll"
                     "Attributes" = "3:512"
@@ -200,7 +128,7 @@
             "SourcePath" = "8:itextsharp.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
+            "Folder" = "8:_CC905B16919E42418D6BF98E18518DA9"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -215,13 +143,53 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C9C70C774A2F4D22927C30AD74306572"
+            {
+            "SourcePath" = "8:..\\Subli-art Domino Cropper\\Resources\\SetupBannerImage.bmp"
+            "TargetName" = "8:SetupBannerImage.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_CC905B16919E42418D6BF98E18518DA9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F5383A9DCD1346BFBB66BAED96676FED"
+            {
+            "SourcePath" = "8:..\\Subli-art Domino Cropper\\Resources\\Icon.ico"
+            "TargetName" = "8:Subli-art Domino Cropper.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_CC905B16919E42418D6BF98E18518DA9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
         }
         "Folder"
         {
-            "{1525181F-901A-416C-8A58-119130FE478E}:_6551F928A9AB4578A5656BDBC56B30BC"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_2252938CC4F54FE1B39510F94A412DB7"
             {
             "Name" = "8:#1916"
             "AlwaysCreate" = "11:FALSE"
@@ -232,7 +200,18 @@
                 {
                 }
             }
-            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_7D85F1B9C87845A9BC36FD59958468F6"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_30DFCAA1DB344EB09F508371B23B3E93"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_CC905B16919E42418D6BF98E18518DA9"
             {
             "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
@@ -242,28 +221,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_59D3304697EB44FC8953702973C3431C"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2C751D94881647B988EA2E41EBA68334"
                     {
                     "Name" = "8:tmp"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_43D2E51D666C492B9B04FCCF55AEE13D"
+                    "Property" = "8:_DFA70AC9CD1945CD9B7C2BD790FB69DB"
                         "Folders"
                         {
                         }
                     }
-                }
-            }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_A5C630516C6D4ECBBA8590F1A80D012E"
-            {
-            "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:ProgramMenuFolder"
-                "Folders"
-                {
                 }
             }
         }
@@ -281,26 +249,26 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Ludo Cropper"
-        "ProductCode" = "8:{A81719F7-FED4-4195-9740-057EF7A3ABE8}"
-        "PackageCode" = "8:{EA75CA65-78C6-4A63-B782-A236B8EFBB6D}"
-        "UpgradeCode" = "8:{B7476806-5C30-46F9-8618-B3C2A993CA49}"
+        "ProductName" = "8:Subli-art Domino Cropper Setup"
+        "ProductCode" = "8:{229D3F5E-198A-4634-9FB5-61E75CB32A39}"
+        "PackageCode" = "8:{5A46BFAF-5848-4C76-9E20-5B129B5426A5}"
+        "UpgradeCode" = "8:{E54756EF-6004-45CC-BE73-714A89EF4197}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
-        "Manufacturer" = "8:Subli-art"
+        "ProductVersion" = "8:1.0.0"
+        "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Subli-art Ludo Cropper Setup"
+        "Title" = "8:Subli-art Domino Cropper Setup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Yam Bakshi"
+        "ARPCONTACT" = "8:Default Company Name"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Subli-art Ludo Cropper Setup"
+        "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_9D0C5030609D443FAD7F65D8472947E7"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -315,7 +283,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_3A7978054BF840F7AA8E79D806A22458"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_986AC7F9C16744D8A601BE33203F8F3C"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -324,7 +292,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_07A777ED6CC0473F9C96D2FEA2BDD284"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_94FB918F3D774509B0A5ED1BBC847A39"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -349,7 +317,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_F939B00167C74858B32EA05F9555E27D"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C1B334C775FD4B4AB2D05F3BC4E2EA2F"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -358,7 +326,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_9214198C8E9E4F48A46464FC7C10DEFF"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_CAA4DA39EF00428EB396D4A45C690AF5"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -403,77 +371,45 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2AF16F11C92346F2AE07DE27985CCCBA"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E168D742393F4AF1862B4AF654D2196F"
             {
-            "Name" = "8:Subli-art Ludo Cropper"
+            "Name" = "8:Subli-art Domino Cropper"
             "Arguments" = "8:"
-            "Description" = "8:Subli-art Ludo Cropper"
+            "Description" = "8:Subli-art Domino Cropper"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_26A0A3AD5D4346B8ACE7A8752B60D907"
-            "Folder" = "8:_6551F928A9AB4578A5656BDBC56B30BC"
-            "WorkingFolder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
-            "Icon" = "8:_9D0C5030609D443FAD7F65D8472947E7"
+            "Target" = "8:_B066CADD4C4F49B2BDDC1780B3E55B4D"
+            "Folder" = "8:_2252938CC4F54FE1B39510F94A412DB7"
+            "WorkingFolder" = "8:_CC905B16919E42418D6BF98E18518DA9"
+            "Icon" = "8:_F5383A9DCD1346BFBB66BAED96676FED"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CD90A8CCD1B641BBA926D91F4C4BA0D7"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E2563E47C4D84C04946D83B0B58A7B92"
             {
-            "Name" = "8:Subli-art Ludo Cropper"
+            "Name" = "8:Subli-art Domino Cropper"
             "Arguments" = "8:"
-            "Description" = "8:Subli-art Ludo Cropper"
+            "Description" = "8:Subli-art Domino Cropper"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_26A0A3AD5D4346B8ACE7A8752B60D907"
-            "Folder" = "8:_A5C630516C6D4ECBBA8590F1A80D012E"
-            "WorkingFolder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
-            "Icon" = "8:_9D0C5030609D443FAD7F65D8472947E7"
+            "Target" = "8:_B066CADD4C4F49B2BDDC1780B3E55B4D"
+            "Folder" = "8:_30DFCAA1DB344EB09F508371B23B3E93"
+            "WorkingFolder" = "8:_CC905B16919E42418D6BF98E18518DA9"
+            "Icon" = "8:_F5383A9DCD1346BFBB66BAED96676FED"
             "Feature" = "8:"
             }
         }
         "UserInterface"
         {
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_32654D595D964FCCB8616AD069EEC0DF"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:2"
-            "Attributes" = "3:3"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8548AAB3A3DA4293ABD2100C99978F72"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_33301D38294641A5A6B8FE75E2F601D9"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_2D3457CCC5B54F899C4BBFEB0877A7E9"
             {
             "Name" = "8:#1901"
             "Sequence" = "3:2"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3C8B0BA5539F4DE4A2637F6290E63DEB"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_DE8B2B02D44A4BA8A25D49FB39CBB5B6"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Progress"
@@ -491,7 +427,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -511,20 +447,20 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_33DB5093A3134F6D92C3661754E82A0C"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_422D285C072B45068FFF5136F9583812"
             {
-            "Name" = "8:#1900"
-            "Sequence" = "3:1"
-            "Attributes" = "3:1"
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3C739BE2D3954516B938B0150E160BEE"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A4F2B94D3C87423C9D257A4D08568A0E"
                     {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -536,14 +472,52 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
                             "UsePlugInResources" = "11:TRUE"
                             }
-                            "InstallAllUsersVisible"
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_5BB82836256D490BBC6920269DC8AED3"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_71E84447A0A94B4C97FA256260911C83"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6B8F040CDEB44790A53FE1033F1C0704"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
                             {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:2"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
                             "Type" = "3:5"
                             "ContextData" = "8:1;True=1;False=0"
                             "Attributes" = "3:0"
@@ -554,88 +528,16 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D6CFFB1022C34AE3869E408CE7854DCF"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "CopyrightWarning"
-                            {
-                            "Name" = "8:CopyrightWarning"
-                            "DisplayName" = "8:#1002"
-                            "Description" = "8:#1102"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
-                            "DefaultValue" = "8:#1202"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "Welcome"
-                            {
-                            "Name" = "8:Welcome"
-                            "DisplayName" = "8:#1003"
-                            "Description" = "8:#1103"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
-                            "DefaultValue" = "8:#1203"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F76593093BBC46A6818AE939494E27A1"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_607A19E42F1D46859D207D12010D8E24"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9EB40B3E1C6D44248E4F93AEDD197B97"
             {
             "Name" = "8:#1902"
             "Sequence" = "3:1"
             "Attributes" = "3:3"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6F8DFEE887FD4B67B8A17D5D6379DABE"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D4A34ACE25884653A27F26CE8ACB869F"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Finished"
@@ -653,7 +555,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -673,77 +575,26 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_A7D684087C39421B8EF1005C26DFEAA7"
-            {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B0E4A3E5A19D42A09C7BEEEB930F301C"
-            {
-            "Name" = "8:#1901"
-            "Sequence" = "3:1"
-            "Attributes" = "3:2"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CCCACDF594A647FBA768CC6A925BF8D7"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "ShowProgress"
-                            {
-                            "Name" = "8:ShowProgress"
-                            "DisplayName" = "8:#1009"
-                            "Description" = "8:#1109"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
-            }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_B4DE91137C76473EA131A7EA8570DAB9"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_A0E4649F4C484D72BE93B6B8B6859F64"
             {
             "UseDynamicProperties" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_C3A20569B6EA401680DD3EF070FFDD21"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_CF430D1DA82F49FEA554BC33661C2F97"
             {
             "Name" = "8:#1900"
-            "Sequence" = "3:2"
+            "Sequence" = "3:1"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_48999CBCE9D9466FA9722FCAC256291C"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_17184C1F5B9F45DE96B7CCDF740BEA11"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -755,7 +606,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -786,7 +637,124 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_972842790B5E4DA38ED98E52F0474F4D"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_44290DFB79F44F788B4C4C4DD4B76DA9"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:2"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C3B4C6E8D18448D3902711DCFFA44B1D"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:2"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_D257BA0241174B5BB44EF6F15BACB2E6"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:2"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0B7138F656EB49639B219AFC0DEFD912"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:2"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_22BB7A4D23874D51B9C1615B5B5E038A"
                     {
                     "Sequence" = "3:200"
                     "DisplayName" = "8:Installation Folder"
@@ -804,12 +772,12 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_EA056910B41B4B608011232171691BB9"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6A0EFFF020684E638B60188B53BF1607"
                     {
                     "Sequence" = "3:300"
                     "DisplayName" = "8:Confirm Installation"
@@ -827,7 +795,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_6C3A63B89397429597C4CB8AD62FBF1E"
+                            "Value" = "8:_C9C70C774A2F4D22927C30AD74306572"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -840,12 +808,12 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_26A0A3AD5D4346B8ACE7A8752B60D907"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B066CADD4C4F49B2BDDC1780B3E55B4D"
             {
-            "SourcePath" = "8:..\\Subli-art Ludo Cropper\\obj\\x86\\Debug\\Subli-art Ludo Cropper.exe"
+            "SourcePath" = "8:..\\Subli-art Domino Cropper\\obj\\x86\\Debug\\Subli-art Domino Cropper.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
+            "Folder" = "8:_CC905B16919E42418D6BF98E18518DA9"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -862,7 +830,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:Release|x86"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{6A755BE1-0733-4B88-8B2C-986E93E877A7}"
+            "OutputProjectGuid" = "8:{9CC548BD-A9E7-45FB-B95E-A8342FAC2196}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

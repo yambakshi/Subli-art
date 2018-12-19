@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subli-art Ludo Cropper", "S
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Subli-art Ludo Cropper Setup", "Subli-art Ludo Cropper Setup\Subli-art Ludo Cropper Setup.vdproj", "{1C228D0C-E5DD-44D8-8230-4557FAD39A03}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Subli-art Domino Cropper Setup", "Subli-art Domino Cropper Setup\Subli-art Domino Cropper Setup.vdproj", "{13C1C3F0-4733-4997-B8B2-34614A68C173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +27,8 @@ Global
 		{6A755BE1-0733-4B88-8B2C-986E93E877A7}.Release|x86.Build.0 = Release|x86
 		{1C228D0C-E5DD-44D8-8230-4557FAD39A03}.Debug|x86.ActiveCfg = Release
 		{1C228D0C-E5DD-44D8-8230-4557FAD39A03}.Release|x86.ActiveCfg = Release
+		{13C1C3F0-4733-4997-B8B2-34614A68C173}.Debug|x86.ActiveCfg = Debug
+		{13C1C3F0-4733-4997-B8B2-34614A68C173}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

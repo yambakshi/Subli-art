@@ -44,8 +44,9 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="itextsharp">
-      <HintPath>bin\Debug\Data\PDF\PDF_DLL\itextsharp-all-5.5.2\itextsharp-dll-core\itextsharp.dll</HintPath>
+    <Reference Include="itextsharp, Version=5.5.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Subli-art Ludo Cropper\bin\Debug\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -127,6 +128,9 @@
     <None Include="Resources\Instructions.png" />
     <None Include="Resources\CW.png" />
     <None Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetupBannerImage.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
