@@ -133,16 +133,16 @@
     <None Include="Resources\Arrow.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Ludo_Board_L.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ludo_Board_R.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Ludo_Players.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SetupBannerImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ludo_Board_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ludo_Board_R.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_667648F67877414C86AA693921AFDA76"
+        "MsmKey" = "8:_4BFB40D1B5424E43ABEAF56F8A8191F6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_E952EFC2D84FB1202381B33D99124E9E"
-        "OwnerKey" = "8:_667648F67877414C86AA693921AFDA76"
+        "OwnerKey" = "8:_4BFB40D1B5424E43ABEAF56F8A8191F6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_667648F67877414C86AA693921AFDA76"
+        "OwnerKey" = "8:_4BFB40D1B5424E43ABEAF56F8A8191F6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -283,7 +283,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ludo Cropper"
         "ProductCode" = "8:{A81719F7-FED4-4195-9740-057EF7A3ABE8}"
-        "PackageCode" = "8:{BB0CAC84-21A9-433A-85E4-BE866F468D7E}"
+        "PackageCode" = "8:{A385BD12-CC8F-49D0-8EEA-FEFB6796E019}"
         "UpgradeCode" = "8:{B7476806-5C30-46F9-8618-B3C2A993CA49}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -403,7 +403,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_05BE1469E90C46CB9658CE9E65CC0930"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_738D27F561B64B79A7919E0D4080897A"
             {
             "Name" = "8:Subli-art Ludo Cropper"
             "Arguments" = "8:"
@@ -411,13 +411,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_667648F67877414C86AA693921AFDA76"
+            "Target" = "8:_4BFB40D1B5424E43ABEAF56F8A8191F6"
             "Folder" = "8:_6551F928A9AB4578A5656BDBC56B30BC"
             "WorkingFolder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
             "Icon" = "8:_9D0C5030609D443FAD7F65D8472947E7"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_232C43719A194B32AEF4BF601BFEEDED"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FE61694436914828A5227C40F71181D7"
             {
             "Name" = "8:Subli-art Ludo Cropper"
             "Arguments" = "8:"
@@ -425,7 +425,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_667648F67877414C86AA693921AFDA76"
+            "Target" = "8:_4BFB40D1B5424E43ABEAF56F8A8191F6"
             "Folder" = "8:_A5C630516C6D4ECBBA8590F1A80D012E"
             "WorkingFolder" = "8:_7D85F1B9C87845A9BC36FD59958468F6"
             "Icon" = "8:_9D0C5030609D443FAD7F65D8472947E7"
@@ -840,7 +840,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_667648F67877414C86AA693921AFDA76"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4BFB40D1B5424E43ABEAF56F8A8191F6"
             {
             "SourcePath" = "8:..\\Subli-art Ludo Cropper\\obj\\x86\\Debug\\Subli-art Ludo Cropper.exe"
             "TargetName" = "8:"
