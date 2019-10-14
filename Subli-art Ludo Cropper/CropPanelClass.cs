@@ -44,7 +44,6 @@ namespace Subli_art_Ludo_Cropper
         #region Initialize
         public CropPanelClass(CropperForm cropperForm, float slotRatio, PanelType type)
         {
-            // TEST COMMIT
             m_type = type;
             m_cropperForm = cropperForm;
             m_slotRatio = slotRatio;
