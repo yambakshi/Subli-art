@@ -65,7 +65,7 @@ namespace Subli_art_Ludo_Cropper
             // Initialize the slot ratios array
             m_slotRatios = new float[2];
             m_slotRatios[0] = 1.0f;
-            m_slotRatios[1] = 30.7f / 50.0f; // width / height
+            m_slotRatios[1] = 35.0f / 54.97f; // width / height
                         
             m_panelsTimer = new Timer();
             m_panelsTimer.Interval = 10;
