@@ -2,11 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 #endregion
@@ -169,7 +166,7 @@ namespace Subli_art_Ludo_Cropper
             inst.Padding = new Padding(2 * m_imgGap);
             inst.Size = new Size(m_instPanel.Width, m_instPanel.Height - m_hideInstButt.Height);
             inst.Location = new Point(0, m_hideInstButt.Height);
-            inst.BackgroundImage = Image.FromFile(Application.StartupPath + "//Data//Images//Instructions.png");
+            inst.BackgroundImage = Properties.Resources.Instructions;
             inst.BackgroundImageLayout = ImageLayout.Stretch;
             inst.ForeColor = Color.Black;
             inst.Font = new Font("Arial", m_buttonsPanel.Height * 0.38f);
@@ -377,7 +374,7 @@ namespace Subli_art_Ludo_Cropper
                     Button delete = new Button();
                     delete.BackgroundImageLayout = ImageLayout.Stretch;
                     delete.BackColor = Color.Black;
-                    delete.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//X.png");
+                    delete.BackgroundImage = Properties.Resources.X;
                     delete.Size = new Size((int)(m_imgSize * 0.2f), (int)(m_imgSize * 0.2f));
                     delete.Click += new EventHandler(DeleteImage);
 
@@ -470,7 +467,7 @@ namespace Subli_art_Ludo_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         public void ImportFromFile(string[] paths)
         {
             List<string> existingImages = new List<string>(paths);

@@ -1,16 +1,11 @@
 ﻿#region Using
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Reflection;
 using System.Resources;
 using System.Globalization;
 #endregion
@@ -44,7 +39,7 @@ namespace Subli_art_Domino_Cropper
             // Set the cropper form
             StartPosition = FormStartPosition.CenterScreen;
             WindowState = FormWindowState.Maximized;
-            Icon = new Icon(Application.StartupPath + "//Data//Images//Icon.ico");
+            Icon = Properties.Resources.Icon;
             BackColor = Color.Black;
             Text = Name + " - " + m_langDictionary["Untitled"];
             DoubleBuffered = true;
@@ -359,7 +354,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
         
-        #region Functions
+        #region Methods
         private void SaveFile()
         {
             try

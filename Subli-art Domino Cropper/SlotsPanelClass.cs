@@ -1,12 +1,7 @@
 ﻿#region Using
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.IO;
 using System.Windows.Forms;
 #endregion
 
@@ -116,7 +111,7 @@ namespace Subli_art_Domino_Cropper
                 m_slots[i].pb.Size = new Size((int)slotWidth, m_slotsPanel.Height - (2 * m_gap));
                 m_slots[i].pb.Location = new Point((int)(((i + 1) * m_gap) + (i * slotWidth)), m_gap);
                 m_slots[i].pb.Cursor = Cursors.Hand;
-                m_slots[i].pb.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//Slot.png");
+                m_slots[i].pb.BackgroundImage = Properties.Resources.Slot;
                 m_slots[i].pb.BackgroundImageLayout = ImageLayout.Stretch;
                 m_slots[i].pb.Click += new EventHandler(slotClick);
                 m_slots[i].pb.Paint += new PaintEventHandler(slotPaint);
@@ -231,7 +226,7 @@ namespace Subli_art_Domino_Cropper
                     new Rectangle(0, 0, m_slots[currSlot].Width, m_slots[currSlot].Height));
 
                 Bitmap vBmp = new Bitmap(
-                    Image.FromFile(Application.StartupPath + "//Data//Images//V.png"), 
+                    Properties.Resources.V,
                     (int)(m_slots[currSlot].Width * 0.5f), 
                     (int)(m_slots[currSlot].Width * 0.5f));
 
@@ -268,7 +263,7 @@ namespace Subli_art_Domino_Cropper
         }
         #endregion
 
-        #region Functions
+        #region Methods
         public void CropToSlot(Bitmap bmp, RectangleF sourceRect)
         {
             m_slots[m_slotInd].bmp = bmp;
@@ -368,7 +363,7 @@ namespace Subli_art_Domino_Cropper
         {
             for (int i = 0; i < m_slots.Length; i++)
             {
-                m_slots[i].pb.BackgroundImage = new Bitmap(Application.StartupPath + "//Data//Images//Slot.png");
+                m_slots[i].pb.BackgroundImage = Properties.Resources.Slot;
                 m_slots[i].bmp = null;
                 m_slots[i].rectColor = Color.FromArgb(100, 255, 0, 0);
                 m_slots[i].approved = false;

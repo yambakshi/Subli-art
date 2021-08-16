@@ -1,16 +1,11 @@
 ﻿#region Using
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Reflection;
 using System.Resources;
 using System.Globalization;
 #endregion
@@ -48,7 +43,7 @@ namespace Subli_art_Ludo_Cropper
             // Set the cropper form
             StartPosition = FormStartPosition.CenterScreen;
             WindowState = FormWindowState.Maximized;
-            Icon = new Icon(Application.StartupPath + "//Data//Images//Icon.ico");
+            Icon = Properties.Resources.Icon;
             BackColor = Color.Black;
             Text = Name + " - " + m_langDictionary["Untitled"];
             DoubleBuffered = true;
@@ -70,7 +65,7 @@ namespace Subli_art_Ludo_Cropper
             // Initialize the slot ratios array
             m_slotRatios = new float[2];
             m_slotRatios[0] = 1.0f;
-            m_slotRatios[1] = 30.7f / 50.0f; // width / height
+            m_slotRatios[1] = 35.0f / 54.97f; // width / height
                         
             m_panelsTimer = new Timer();
             m_panelsTimer.Interval = 10;
@@ -196,8 +191,8 @@ namespace Subli_art_Ludo_Cropper
             m_cropPanels[1].Name = m_langDictionary["Players"];
 
             // Set the panels bitmap
-            m_cropPanels[1].Bitmap = new Bitmap(Application.StartupPath + "//Data//Images//Player.png");
-            m_slotsPanels[1].Bitmap = new Bitmap(Application.StartupPath + "//Data//Images//Player.png");
+            m_cropPanels[1].Bitmap = Properties.Resources.Player;
+            m_slotsPanels[1].Bitmap = Properties.Resources.Player;
 
             // Position the panel according 
             // to the index passed as argument
@@ -578,7 +573,7 @@ namespace Subli_art_Ludo_Cropper
         }
         #endregion
         
-        #region Functions
+        #region Methods
         private void SaveFile()
         {
             try
